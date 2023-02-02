@@ -1,5 +1,10 @@
 body {
+    background-color: purple;
+}
 
+#title {
+    color: white;
+    font-size:xx-large;
 }
 
 h2 {
