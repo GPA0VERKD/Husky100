@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(160, 107, 191);
+nav, footer {
+    background-color: black;
 }
 
 #title {
@@ -8,18 +8,26 @@ body {
 }
 
 .cont {
-    background-color: white;
     border-radius: 15px;
     padding: 5%;
     border-right-style: solid;
     border-color: rgb(101, 2, 166);
 }
 
+.cont > p {
+    font-size: x-large;
+    text-align: justify;
+}
+
 blockquote {
     background-color: lightgrey;
     padding: 2%;
     font-style: italic;
-    font-size: large;
+    font-size: x-large;
+    border-left-style: solid;
+    border-width: 10px;
+    border-color: gray;
+    text-align: center;
 }
 
 .arrow {
